@@ -15,7 +15,7 @@ recognition.onresult = function (event) {
 
 function speak() {
     var synth = window.speechSynthesis;
-    WebKitCSSMatrix.attach(camera);
+    Webcam.attach(camera);
 
     speak_data = "Tirando a sua selfie em 5 segundos";
 
